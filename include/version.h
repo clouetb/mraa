@@ -11,8 +11,8 @@
 extern "C" {
 #endif
 
-const char* gVERSION;
-const char* gVERSION_SHORT;
+static const char* gVERSION;
+static const char* gVERSION_SHORT;
 
 #ifdef __cplusplus
 }
