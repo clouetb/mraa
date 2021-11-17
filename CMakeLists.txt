@@ -230,3 +230,8 @@ endif ()
 if (INSTALLTOOLS)
   add_subdirectory (tools)
 endif()
+
+SET(CPACK_GENERATOR "DEB")
+SET(CPACK_DEBIAN_PACKAGE_MAINTAINER "BC") #required
+INCLUDE(CPack)
+
